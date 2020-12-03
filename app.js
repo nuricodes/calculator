@@ -4,12 +4,22 @@ let operators = document.querySelectorAll('.operator');
 let screen = document.querySelector('input');
 
 // input variables
-let num1;
-let num2;
+let num;
+let oper;
 
-//log values
-integers.forEach(int => int.addEventListener('click', (e) => console.log(e.target.value)))
-operators.forEach(op => op.addEventListener('click', (e) => console.log(e.target.value)))
+//store clicked value in either num
+integers.forEach(int => int.addEventListener('click', e => {
+    e.preventDefault();
+    screen.value = e.target.value;
+    num += e.target.value;
+}));
+operators.forEach(op => op.addEventListener('click', (e) => {
+    e.preventDefault();
+    screen.value = e.target.value;
+    oper = e.target.value
+}))
+
+
 
 
 

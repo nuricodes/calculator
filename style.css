@@ -45,7 +45,7 @@ button {
 }
 .screen {
     width: 99%;
-    height: 85px;
+    height: 90px;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -56,7 +56,7 @@ button {
     box-sizing: border-box;
     color: black;
     font-family: 'digital-7', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.3em;
+    font-size: 3.3em;
     line-height: 1.2em;
     margin: 0px 0px 10px 0px;
     padding: 4px 5px;
